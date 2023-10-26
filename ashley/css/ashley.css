@@ -1,0 +1,117 @@
+* {margin:0; padding:0; list-style:none; text-decoration:none; box-sizing:border-box; scroll-behavior:smooth;}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+}
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img{max-width:100%;}
+a {display:block; color:black;}
+/* header start */
+header {width:100%; 
+    background-color:rgb(0, 30, 49); position:fixed; top:0; left:0;
+    z-index:5;
+}
+.headerWrap {width:80%; margin:0 auto; display:flex; 
+    justify-content:space-between; align-items:center; height:100px;
+     
+}
+header a {padding:10px; color:white;}
+.logo {font-family: 'Elsie Swash Caps', serif;}
+.logo > h1 {padding:10px;}
+.mainMenu {font-family: 'Martian Mono','Hahmlet', serif;}
+.mainMenu > ul {display:flex;}
+.mainMenu > ul li {font-size:18px; margin:0 20px; font-weight:bolder;}
+.login {font-family: 'NPSfontBold';}
+.login > ul {display:flex;}
+.login > ul li {font-size:16px; margin:0 10px;}
+
+/* main start */
+main {padding-top:100px;}
+.vanner {width:1500px; height:800px; margin:0 auto; 
+    overflow:hidden; position:relative;}
+.vannerSlider {width:600%; height:100%;}
+.vannerSlider ul:after {display:block; content:''; clear: both;}
+.vannerSlider li {float:left;}
+.vannerSlider img {width:1500px; height:800px;}
+.vanner > a {position:absolute; right:30px; bottom:30px; font-size:50px; color:white;}
+.vanner > .play {display:none;}
+
+.vannerDes {width:1500px; margin:0 auto; font-family: 'GangwonEdu_OTFBoldA'; 
+    background-color:rgb(121, 105, 105); color:white; padding:10px; 
+    margin-bottom:50px;}
+.vannerDes p {padding:3px 0;}
+
+.ashleyDes {width:1400px; margin:50px auto;}
+.ashleyDes h1 {font-family: 'Elsie Swash Caps', serif; padding-bottom:20px;}
+.ashleyDes .title p {font-family: 'NPSfontBold'; color:rgb(53, 53, 53);}
+.title {text-align:center;}
+.desBox {display:flex; justify-content:space-between; margin:30px 0; align-items:center;}
+.desBox ul li {text-align:center; font-family: 'GangwonEdu_OTFBoldA';}
+.desBox img {width:70px; height:70px;}
+.desBox .orangeText {color:#ff6c00;}
+.desBox .bigText {font-size:20px; padding:15px 0;}
+
+.board {width:100%; background-color:rgba(235, 235, 235, 0.356); 
+    padding:50px 0;
+}
+.boardBox {width:80%; display:flex; padding:0 10px; 
+    margin:0 auto; justify-content:center;}
+.notice {width:500px; position:relative; margin-right:30px;}
+.boardTitle {font-size:25px; font-family: 'Tilt Neon', sans-serif; 
+    font-weight:bolder; padding-bottom:20px;
+}
+.boardDes {font-family: 'NanumSquareNeo-Variable'; font-size:15px;}
+.boardDes > li a {padding:12px; awidth:320px;
+     awhite-space:nowrap; aoverflow:hidden; atext-overflow:ellipsis;}
+.boardDes > li a:hover {
+   white-space: normal;
+   overflow: visible;
+   text-overflow: clip;
+}
+.board .more {position:absolute; right:50px; top:5px; border:2px solid #ff6c00;
+    line-height:1; padding:3px; color:#ff6c00; transition:0.5s;
+}
+.board .more:hover {background-color:#ff6c00; color:white;}
+.store {width:800px;}
+.store .storeTitle {padding-left:3%;}
+.storeMap {display:flex; justify-content:center;}
+.store img {width:485px; height:214px;}
+.storeDes {background-color:#ffa52fe7; width:200px; display:flex;
+    flex-flow:column wrap; justify-content:center; align-items:center;
+    font-size:14px;
+}
+.storeDes .lineBig {line-height:30px; margin-bottom:10px;}
+.storeDes p {color:white; text-align:center;}
+.storeDes a {color:white; border:2px solid white; padding:10px;}
+
+.event {width:100%; abackground-color:rgba(255, 252, 213, 0.555);}
+.eventBox {width:1200px; margin:0 auto; padding:50px 0;
+    position:relative;}
+.eventTitle > h1 {font-family: 'Tilt Neon', sans-serif; text-align:center;}
+.eventTitle > p {font-family: 'NanumSquareNeo-Variable'; text-align:center;
+    padding:20px 0;}
+.eventSlider img {width:360px; height:360px;}
+.slick-prev {left:-100px;}
+
+.youtube iframe {width:1024px; height:500px;}
