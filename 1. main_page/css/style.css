@@ -242,7 +242,8 @@ img{max-width:100%;}
   0% {transform:translateX(0);}
   100% {transform:translateX(-100%);}
 }
-
+.other-project {marign-top:60px; font-family: 'TheJamsil5Bold';}
+.other-project li + li {margin-top:10px;}
 
 @media screen and (max-width:1400px) {
 .aboutContent {max-width:1000px;}
