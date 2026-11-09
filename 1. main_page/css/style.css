@@ -106,8 +106,8 @@ img{max-width:100%;}
 .top100 {top:100;}
 .workBackLeft {position:absolute; background-color:gold; left:0; top:0;}
 .workBackRight {position:absolute; background-color:gold; right:17px; bottom:100px;}
-.workWid {width:300px; height:100px; transition:0.3s;}
-.workHei {width:100px; height:300px; transition:0.3s;}
+.workWid {width:300px; height:100px; transition:0.3s; display:none;}
+.workHei {width:100px; height:300px; transition:0.3s; display:none;}
 .workContent {margin:60px auto;}
 .workTitle {padding-bottom:30px;}
 .imgSlider {margin-top:70px; position:relative;}
