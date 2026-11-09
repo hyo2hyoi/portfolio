@@ -63,7 +63,7 @@ img{max-width:100%;}
     flex-flow:column wrap; justify-content:center; align-items:center; margin:0 auto;}
 .homeContent h1 {font-size:100px; padding-bottom:20px; font-family: 'Bungee Shade', sans-serif;
     line-height:1; position:relative; transition:0.3s;}
-.homeContent h1>i {font-size:20px; color:orangered; position:absolute; top:-20px;}
+.homeContent h1>i {font-size:20px; color:orangered; position:absolute; top:-20px; display: none;}
 .homeContent h1>.dot1 {left:30px;}
 .homeContent h1>.dot2 {left:320px;}
 .homeContent h1>.dot3 {left:650px;}
